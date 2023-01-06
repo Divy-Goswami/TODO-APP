@@ -1,0 +1,50 @@
+.maindiv{
+    display: grid;
+    place-items: center;
+    width: 100wh;
+    height: 100vh;
+}
+.parent{
+    width: 60%;
+    height: auto;
+    box-shadow: 1px 0px 6px 1px #c89797;
+}
+.inputdata{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+
+
+.adddata{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#addbtn:hover{
+    cursor: pointer;
+    color: aquamarine!important
+}
+#itemsdiv{
+    width: 50%;
+    border: 1px solid red;
+
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    margin-right: 100px;
+    background-color: aliceblue;
+    border: 1px solid red;
+}
+#parent-itemsdiv{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+
+}
